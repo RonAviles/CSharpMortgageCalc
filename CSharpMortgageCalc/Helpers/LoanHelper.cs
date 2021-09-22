@@ -40,7 +40,7 @@ namespace CSharpMortgageCalc.Helpers
             }
 
             loan.TotalInterest = totalInterest;
-            loan.TotalInterest = loan.Amount + totalInterest;
+            loan.TotalCost = loan.Amount + totalInterest;
 
             //return the loan
             return loan;
